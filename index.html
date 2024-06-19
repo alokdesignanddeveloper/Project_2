@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alok Sarkar_1st_Project</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <Style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .mystyle {
+            justify-content: space-between;
+        }
+
+        #Animation_ball {
+            width: 50px;
+            height: 50px;
+            background-color: #a70199;
+            animation-name: Div4AnimationBGOnly;
+            animation-duration: 10s;
+            /* animation-iteration-count: 10; */
+            animation-iteration-count: infinite;
+            position: relative;
+        }
+
+        @keyframes
+
+        /*identifierName (Main)*/
+        Div4AnimationBGOnly {
+            0%
+
+            /*from*/
+                {
+                Left: 0Px;
+                Top: 0px;
+            }
+
+            25% {
+                Left: 95%;
+                Top: 0px;
+                border-radius: 50%;
+
+            }
+
+            50% {
+                Top: 90vh;
+                Left: 95%;
+
+            }
+
+            75% {
+                Left: 0Px;
+                Top: 90vh;
+                background-color: hsl(258, 70%, 13%);
+                border-radius: 50%;
+            }
+
+            100%
+
+            /*To*/
+                {
+                Left: 0px;
+                Top: 0px;
+            }
+        }
+    </Style>
+
+</head>
+
+<body>
+
+
+    <!-- start_Header_section     -->
+
+    <Header>
+        <div id="Header" class="w-[100%] md:h-[110px] gap-[2.5%] bg-red-400 flex justify-between gap-[8px] md:flex-wrap md:justify-center md:items-center">
+
+            <div id="Animation_ball">
+                <img style="height: 50px; width: 50px;" src="./Project_1st_elements/Alok_Sarkar_Ai_Image_2-01.png"
+                    alt="">
+                <h1 style="font-size: larger; font-weight: bold; color: #565656;">ALOK_SARKAR</h1>
+            </div>
+
+            <div class="w-[30%] h-[85px] bg-red-400 rounded-lg flex justify-center items-center">
+                <div
+                    class="w-[30%] h-[85px] bg-red-400 bg-opacity-25 rounded-lg flex justify-center items-center fixed">
+                    <a href="#Header">
+                        <div id="lottie" style="width: 200px; height: auto;"></div>
+    
+                        <!-- Link of script- https://cdnjs.com/libraries/lottie-web -->
+    
+    
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+    
+                        <script>
+                            var animation = bodymovin.loadAnimation({
+                                container: document.getElementById('lottie'),
+                                renderer: 'svg',
+                                loop: true,
+                                autoplay: true,
+                                path: './Project_1st_elements/data.json'
+                            })
+                        </script>
+                    </a>
+                </div>
+            </div>
+            <ul
+            id="menubar" class="mystyle bg-[#95ff45] p-2 md:bg-red-400 md:p-0 hidden mt-[25px] md:w-[62.5%] md:h-[85px] md:bg-red-400 md:rounded-lg md:flex md:flex-wrap md:justify-center md:items-center md:space-x-[30px] md:gap-[5px]">
+                <li
+                    class="text-[24px] text-black hover:text-[#565656] hover:text-[30px] hover:underline underline-offset-[14px]">
+                    <a href="#About"> About </a>
+                </li>
+                <li
+                    class="text-[24px] text-black hover:text-[#565656] hover:text-[30px] hover:underline underline-offset-[14px]">
+                    <a href="#Experience"> Experience </a>
+                </li>
+                <li
+                    class="text-[24px] text-black hover:text-[#565656] hover:text-[30px] hover:underline underline-offset-[14px]">
+                    <a href="#Projects">
+                        <blockquote
+                            cite="tangerine-hummingbird-1479b6.netlify.app/?fbclid=IwAR0ZcG7CNN2TuzlNenN6hZ24CezVjzv2b86KKEXCDB9i6H543Pn9UHQ7RgM">
+                            Projects
+                        </blockquote>
+                    </a>
+                </li>
+                <li
+                    class="text-[24px] text-black hover:text-[#565656] hover:text-[30px] hover:underline underline-offset-[14px]">
+                    <a href="#Contact">Contact</a>
+                </li>
+            </ul>
+
+            <div  id="humberger" class="off block flex-col mr-[8px] mt-[25px] md:hidden" style="height: auto; width: 30px;">
+
+                <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 20">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: none;
+                          stroke: #95ff45;
+                          stroke-miterlimit: 10;
+                          stroke-width: 2px;
+                        }
+                      </style>
+                    </defs>
+                    <line class="cls-1" x1=".5" y1="1" x2="32.5" y2="1"/>
+                    <line class="cls-1" x1=".5" y1="10" x2="32.5" y2="10"/>
+                    <line class="cls-1" x1=".5" y1="19" x2="32.5" y2="19"/>
+                  </svg>
+            
+            </div>
+
+        </div>
+    </Header>
+
+    <!-- end_Header_section     -->
+
+    <!-- <br> -->
+    <div class="h-[5px]"></div>
+
+    <!-- start_Hero_section     -->
+
+    <Section class="Hero_Section bg-white flex flex-wrap justify-center items-center">
+        <div id="Hero_Section_go"
+            class="w-[75%] h-[100vh] bg-[white] flex flex-wrap justify-center items-center gap-[6%]">
+            <!-- mt-[20px] -->
+            <div>
+                <blockquote cite="https://tangerine-hummingbird-1479b6.netlify.app/assets/profile-pic.png">
+                    <img class="w-[auto] h-[400px]" src="./Project_1st_elements/Alok_Sarkar_Ai_Image_2-01.png" alt="">
+                </blockquote>
+
+            </div>
+
+            <div class="flex:flex-wrap justify-center items-center gap-">
+                <h1 class="text-[#565656] text-2xl text-bold text-center"> Hello, I'm </h1>
+                <h1 class="text-[#232323] text-5xl font-bold text-center p-2"> Alok Sarkar </h1>
+                <h1 class="text-[#565656] text-3xl text-bold text-center"> Frontend Developer </h1>
+
+
+                <div class="flex gap-4 justify-center items-center mt-4">
+                    <button
+                        class="w-[50%] bg-white rounded-full py-[12px] text-black border border-[black] border-3 hover:text-white hover:bg-[#565656] hover:border-white hover:ease-out">
+                        <!--  hover:ease-in-out transition hover:delay-[300ms]  -->
+                        Download CV
+                    </button>
+
+                    <button
+                        class="w-1/2 bg-[#565656] rounded-full py-[12px] text-white border border-[white] border-3 hover:text-black hover:bg-[#565656]] hover:border-black hover:ease-out">
+                        Contact Info
+                    </button>
+
+
+                </div>
+
+                <div class="flex justify-center items-center  gap-4 mt-4">
+                    <img class="w-[35px]" src="./Project_1st_elements/linkedin.png" alt="">
+                    <img class="w-[35px]" src="./Project_1st_elements/github.png" alt="">
+                </div>
+            </div>
+        </div>
+    </Section>
+
+    <!-- end_Hero_section     -->
+
+
+    <!-- start_About_section -->
+
+    <section id="About" class="Abouts_Section bg-white w-[100%] h-[100vh] flex flex-wrap justify-center items-center">
+
+        <div class="bg-[white] w-[75%] h-[20%] flex flex-wrap justify-center items-center gap-[6%]">
+
+            <div>
+                <h1 class="text-center">Get To Know More</h1>
+                <h1 class="text-center text-4xl font-bold">About Me</h1>
+            </div>
+
+        </div>
+
+        <div class="w-[75%] h-[80%] bg-[white] flex flex-wrap flex-row justify-center items-center gap-[1%]">
+            <div class="w-[37%] h-[100%] bg-white flex justify-center items-center">
+
+                <blockquote cite="https://tangerine-hummingbird-1479b6.netlify.app/assets/about-pic.png">
+                    <img class="rounded-[30px]" src="./Project_1st_elements/Alok_Sarkar_Ai_Image_2-01.png" alt="">
+                </blockquote>
+
+
+            </div>
+
+
+            <div class="w-[62%] h-[100%] bg-white flex flex-wrap flex-col justify-center items-center gap-[1%]">
+
+                <div class="w-[100%] h-[45%] bg-white flex flex-wrap justify-center gap-[5.5%]">
+
+                    <button class="w-[40%] h-[70%] border border-red-400 border-3 rounded-[30px] mt-[10%]">
+
+                        <div class="flex justify-center"><img class="w-[35px] h-[35px]"
+                                src="./Project_1st_elements/experience.png" alt=""></div>
+                        <div>
+                            <h1 class="text-2xl font-bold">Experience</h1>
+                        </div>
+                        <div>
+                            <h2>2+ years</h2>
+                        </div>
+                        <div>
+                            <h3>Frontend Development</h3>
+                        </div>
+
+                    </button>
+
+
+                    <button class="w-[40%] h-[70%] border border-red-400 border-3 rounded-[30px] mt-[10%]">
+
+                        <div class="flex justify-center"><img class="w-[35px] h-[35px]"
+                                src="./Project_1st_elements/education.png" alt=""></div>
+                        <div>
+                            <h1 class="text-2xl font-bold">Education</h1>
+                        </div>
+                        <div>
+                            <h2>B.Sc. Bachelors Degree</h2>
+                        </div>
+                        <div>
+                            <h3>M.Sc. Masters Degree</h3>
+                        </div>
+
+                    </button>
+
+                </div>
+
+
+                <div class="w-[100%] h-[45%] bg-white flex justify-center items-center">
+                    <p class="ml-[8%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
+                        reprehenderit et laborum, rem,
+                        dolore eum quod voluptate exercitationem nobis, nihil esse debitis maxime facere minus sint
+                        delectus velit in eos quo officiis explicabo deleniti dignissimos. Eligendi illum libero dolorum
+                        cum laboriosam corrupti quidem, reiciendis ea magnam? Nulla, impedit fuga!</p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- end_About_section     -->
+
+
+    <!-- start_Experience_section -->
+
+    <section id="Experience"
+        class="Abouts_Section bg-white w-[100%] h-[100vh] flex flex-wrap justify-center items-center">
+
+        <div class="bg-white w-[75%] h-[20%] flex flex-wrap justify-center items-center gap-[6%]">
+
+            <div>
+                <h1 class="text-center">Explore My</h1>
+                <h1 class="text-center text-4xl font-bold">Experience</h1>
+            </div>
+
+        </div>
+
+        <div class="w-[75%] h-[80%] bg-[white] flex flex-wrap flex-row justify-center items-center gap-[1%]">
+            <div class="w-[49.5%] h-[100%] bg-white flex flex-wrap justify-center items-center">
+
+                <button
+                    class="w-[92%] h-[60%] bg-red-400 border border-red-200 text-center justify-center items-center border-black border-3 rounded-[30px]">
+
+                    <div class="h-[20%] w-[100%]">
+                        <h1 class="font-bold text-3xl">Frontend Development</h1>
+                    </div>
+                    <div class="h-[70%] w-[100%] flex flex-wrap justify-center items-center">
+
+                        <div class="flex px-[35px] w-1/2">
+                            <div><img class="[w-35px] h-[35px]" src="./Project_1st_elements/checkmark.png" alt="">
+
+                            </div>
+
+                            <div class="text-left">
+                                <h1 class="text-[20px] font-bold">HTML</h1>
+                                <h1>Experienced</h1>
+                            </div>
+                        </div>
+
+                        <div class="flex px-[35px] w-1/2">
+                            <div><img class="[w-35px] h-[35px]" src="./Project_1st_elements/checkmark.png" alt="">
+
+                            </div>
+
+                            <div class="text-left">
+                                <h1 class="text-[20px] font-bold">CSS</h1>
+                                <h1>Experienced</h1>
+                            </div>
+                        </div>
+
+                        <div class="flex px-[35px] w-1/2">
+                            <div><img class="[w-35px] h-[35px]" src="./Project_1st_elements/checkmark.png" alt="">
+
+                            </div>
+
+                            <div class="text-left">
+                                <h1 class="text-[20px] font-bold">SASS</h1>
+                                <h1>Experienced</h1>
+                            </div>
+                        </div>
+
+                        <div class="flex px-[35px] w-1/2">
+                            <div><img class="[w-35px] h-[35px]" src="./Project_1st_elements/checkmark.png" alt="">
+
+                            </div>
+
+                            <div class="text-left">
+                                <h1 class="text-[20px] font-bold">JavaScript</h1>
+                                <h1>Experienced</h1>
+                            </div>
+                        </div>
+
+                        <div class="flex px-[35px] w-1/2">
+                            <div><img class="[w-35px] h-[35px]" src="./Project_1st_elements/checkmark.png" alt="">
+
+                            </div>
+
+                            <div class="text-left">
+                                <h1 class="text-[20px] font-bold">TypeScript</h1>
+                                <h1>Experienced</h1>
+                            </div>
+                        </div>
+
+                        <div class="flex px-[35px] w-1/2">
+                            <div><img class="[w-35px] h-[35px]" src="./Project_1st_elements/checkmark.png" alt="">
+
+                            </div>
+
+                            <div class="text-left">
+                                <h1 class="text-[20px] font-bold">Material UI</h1>
+                                <h1>Experienced</h1>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </button>
+
+
+            </div>
+
+            <div class="w-[49.5%] h-[100%] bg-white flex flex-wrap justify-center items-center">
+
+                <button
+                    class="w-[92%] h-[60%] bg-red-400 flex flex-wrap justify-self-auto border border-red-200 border-3 rounded-[30px]">
+
+                    <div class="h-[20%] w-[100%] flex items-center justify-center">
+                        <h1 class="font-bold text-3xl">Frontend Development</h1>
+                    </div>
+                    <div class="h-[60%] w-[100%] flex-wrap flex justify-center">
+
+                        <div class="flex px-[35px] w-1/2">
+                            <div><img class="[w-35px] h-[35px]" src="./Project_1st_elements/checkmark.png" alt="">
+
+                            </div>
+
+                            <div class="text-left">
+                                <h1 class="text-[20px] font-bold">PostgreSQL</h1>
+                                <h1>Basic</h1>
+                            </div>
+                        </div>
+
+                        <div class="flex px-[35px] w-1/2">
+                            <div><img class="[w-35px] h-[35px]" src="./Project_1st_elements/checkmark.png" alt="">
+
+                            </div>
+
+                            <div class="text-left">
+                                <h1 class="text-[20px] font-bold">Node JS</h1>
+                                <h1>Intermediate</h1>
+                            </div>
+                        </div>
+
+                        <div class="flex px-[35px] w-1/2">
+                            <div><img class="[w-35px] h-[35px]" src="./Project_1st_elements/checkmark.png" alt="">
+
+                            </div>
+
+                            <div class="text-left">
+                                <h1 class="text-[20px] font-bold">Express JS</h1>
+                                <h1>Intermediate</h1>
+                            </div>
+                        </div>
+
+                        <div class="flex px-[35px] w-1/2">
+                            <div><img class="[w-35px] h-[35px]" src="./Project_1st_elements/checkmark.png" alt="">
+
+                            </div>
+
+                            <div class="text-left">
+                                <h1 class="text-[20px] font-bold">Git</h1>
+                                <h1>Intermediate</h1>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end_Experience_section -->
+
+
+    <!-- start_Project_1_&_2_section -->
+
+    <section id="Projects"
+        class="Abouts_Section bg-white w-[100%] h-[100vh] flex flex-wrap justify-center items-center">
+
+        <div class="bg-white w-[75%] h-[20%] flex flex-wrap justify-center items-center gap-[6%]">
+
+            <div>
+                <h1 class="text-center">Browse My Recent</h1>
+                <h1 class="text-center text-4xl font-bold">Projects</h1>
+            </div>
+
+        </div>
+
+        <div class="w-[75%] h-[80%] bg-[white] flex flex-wrap flex-row justify-center items-center gap-[1%]">
+            <div class="w-[49.5%] h-[100%] bg-white flex flex-wrap justify-center items-center">
+
+                <div
+                    class="w-[92%] h-[92%] bg-slate-300 flex text-center justify-center items-center border border-[#858585] border-3 rounded-[30px]">
+
+                    <div class="justify-center">
+                        <div class="">
+                            <blockquote cite="https://tangerine-hummingbird-1479b6.netlify.app/assets/project-1.png">
+
+                                <img class="h-[350px] w-[350px] rounded-[30px]"
+                                    src="./Project_1st_elements/project-1.png" alt="">
+                            </blockquote>
+
+                        </div>
+
+                        <h1 class="text-2xl font-bold text-center my-[10px]">Project One</h1>
+                        <div class="flex justify-center gap-2">
+                            <button
+                                class="w-[40%] h-[70%] border border-black border-3 rounded-[30px] p-2  text-black border border-[white] border-3 hover:text-white hover:bg-black hover:border-white hover:ease-out">Github</button>
+                            <button
+                                class="w-[40%] h-[70%] border border-black border-3 rounded-[30px] p-2 text-black border border-[white] border-3 hover:text-white hover:bg-black hover:border-white hover:ease-out">Live
+                                Demo</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="w-[49.5%] h-[100%] bg-white flex flex-wrap justify-center items-center">
+
+                <div
+                    class="w-[92%] h-[92%] bg-slate-300 flex text-center justify-center items-center border border-[#858585] border-3 rounded-[30px]">
+
+                    <div class="justify-center">
+                        <div class="">
+
+                            <blockquote cite="https://tangerine-hummingbird-1479b6.netlify.app/assets/project-2.png">
+
+                                <img class="h-[350px] w-[350px] rounded-[30px]"
+                                    src="./Project_1st_elements/project-2.png" alt="">
+                            </blockquote>
+
+                        </div>
+
+                        <h1 class="text-2xl font-bold text-center my-[10px]">Project Two</h1>
+                        <div class="flex justify-center gap-2">
+                            <button
+                                class="w-[40%] h-[70%] border border-black border-3 rounded-[30px] p-2  text-black border border-[white] border-3 hover:text-white hover:bg-black hover:border-white hover:ease-out">Github</button>
+                            <button
+                                class="w-[40%] h-[70%] border border-black border-3 rounded-[30px] p-2 text-black border border-[white] border-3 hover:text-white hover:bg-black hover:border-white hover:ease-out">Live
+                                Demo</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end_Project_1_&_2_section -->
+
+    <!-- start_Project_3_section -->
+
+    <section class="Project_3_section bg-white w-[100%] h-[82vh] flex flex-wrap justify-center items-center">
+        <div class="w-[75%] h-[100%] bg-white flex flex-wrap justify-center items-center">
+
+            <div
+                class="w-[96%] h-[96%] bg-slate-300 flex text-center justify-center items-center border border-[#858585] border-3 rounded-[30px]">
+
+                <div class="justify-center">
+                    <div class="">
+                        <blockquote cite="https://tangerine-hummingbird-1479b6.netlify.app/assets/project-3.png">
+
+                            <img class="h-[350px] w-[350px] rounded-[30px]" src="./Project_1st_elements/project-3.png"
+                                alt="">
+                        </blockquote>
+
+                    </div>
+
+                    <h1 class="text-2xl font-bold text-center my-[10px]">Project Three</h1>
+                    <div class="flex justify-center gap-2">
+                        <button
+                            class="w-[40%] h-[70%] border border-black border-3 rounded-[30px] p-2  text-black border border-[white] border-3 hover:text-white hover:bg-black hover:border-white hover:ease-out">Github</button>
+                        <button
+                            class="w-[40%] h-[70%] border border-black border-3 rounded-[30px] p-2 text-black border border-[white] border-3 hover:text-white hover:bg-black hover:border-white hover:ease-out">Live
+                            Demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- end_Project_3_section -->
+
+
+    <!-- start_Footer_section -->
+
+    <Footer>
+
+        <section id="Contact"
+            class="Abouts_Section bg-white w-[100%] flex flex-wrap justify-items-center items-center flex-col">
+
+            <div class="bg-white w-[75%] h-[120px] flex flex-wrap justify-center items-center">
+
+                <div>
+                    <h1 class="text-center">Get in Touch</h1>
+                    <h1 class="text-center text-4xl font-bold">Contact Me</h1>
+                </div>
+
+            </div>
+
+            <div class="bg-white w-[75%] h-[45vh] flex flex-wrap justify-center items-center flex-col pt-8">
+
+                <ul
+                    class="flex flex-wrap justify-center items-center border border-3 border-red-400 rounded-[30px] space-x-[30px] gap-[5px]">
+                    <li class="flex justify-items-center items-center gap-2 p-6">
+                        <div>
+                            <img class="h-[38px] w-[38px]" src="./Project_1st_elements/email.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="font-bold text-black hover:text-red-400 hover:underline underline-offset-[14px]">
+                                Example@gmail.com</h1>
+                        </div>
+                    </li>
+                    <li class="flex justify-items-center items-center gap-2 p-6">
+                        <div>
+                            <img class="h-[30px] w-[30px]" src="./Project_1st_elements/linkedin.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="font-bold text-black hover:text-red-400 hover:underline underline-offset-[14px]">
+                                Linkdin</h1>
+                        </div>
+                    </li>
+
+                </ul>
+
+
+                <div>
+                    <ul
+                        class="w-[62.5%] h-[85px] flex justify-items-center items-center space-x-[30px] gap-[5px] pt-20">
+                        <li
+                            class="text-[24px] text-black hover:text-[#565656] hover:text-[30px] hover:underline underline-offset-[14px]">
+                            <a href="#About"> About </a>
+                        </li>
+
+                        <li
+                            class="text-[24px] text-black hover:text-[#565656] hover:text-[30px] hover:underline underline-offset-[14px]">
+                            <a href="#Experience"> Experience </a>
+                        </li>
+
+                        <li
+                            class="text-[24px] text-black hover:text-[#565656] hover:text-[30px] hover:underline underline-offset-[14px]">
+                            <a href="#Projects"> Projects </a>
+                        </li>
+
+                        <li
+                            class="text-[24px] text-black hover:text-[#565656] hover:text-[30px] hover:underline underline-offset-[14px]">
+                            <a href="#Hero_Section_go"> Contact </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="pt-16 pb-4">
+                    <h1>Copyright © 2023 John Doe. All Rights Reserved.</h1>
+                </div>
+
+            </div>
+
+        </section>
+
+    </Footer>
+
+    <!-- end_Footer_section -->
+
+
+<!-- index_3_js for humbargar dropdown manu -->
+    <script src="./Project_1st_elements/index_3.js"></script>
+
+</body>
+
+</html>
